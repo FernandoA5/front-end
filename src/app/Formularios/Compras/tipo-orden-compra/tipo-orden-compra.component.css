@@ -1,0 +1,41 @@
+body{
+    background-color: #c7c7c7 !important;
+    position:fixed;
+    width:110% !important;
+    height:110% !important;
+    margin: -1rem !important;
+}
+#modal{
+    background-color: white !important;
+    position:relative;
+    width:40% !important;
+    height:33% !important;
+    margin-top: 10%;
+    margin-left: 26.05%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Open Sans';
+    margin-top: -2rem;
+    margin-bottom: 1.5rem;
+
+}
+.checks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.checks input{
+    margin: 0.5rem;
+}
+.checks label{
+    font-size: 0.8rem;
+    font-family: 'Open Sans';
+    margin-right: 1rem;
+}
