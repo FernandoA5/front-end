@@ -1,0 +1,74 @@
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.titles{
+  display: flex;
+  flex-direction: row;
+  margin-right: 1rem;
+  font-size: 0.5rem;
+  font-family: 'Open Sans';
+  margin-top: -0.5rem;
+}
+.titles div{
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}
+.columnas{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+  font-size: 0.6rem;
+  font-family: 'Open Sans';
+}
+input{
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  width: 5rem;
+  height: 0.850rem;
+}
+.btn-borrar{
+  background-color: red;
+  border: none;
+  margin-top: 0.8rem;
+  border-radius: 100%;
+  width: 1rem;
+  height: 1rem;
+  font-size: 0.5rem;
+}
+.agregar label{
+  margin-top: 0.8rem;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  font-size: 0.6rem;
+  font-family: 'Open Sans';
+}
+.btn-agregar
+{
+  background-color: #c7c7c7;
+  border: none;
+  margin-top: 0.8rem;
+  border-radius: 100%;
+  width: 1rem;
+  height: 1rem;
+  font-size: 0.5rem;
+  margin-left: -15.7rem;
+}
+.totales{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  font-size: 0.6rem;
+  font-family: 'Open Sans';
+}
+.totales div{
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}

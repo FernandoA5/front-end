@@ -1,0 +1,27 @@
+form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.izquierda{
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+.izquierda div{
+  margin-top: 0.3rem;
+}
+.fecha-entrega{
+  margin-top: 0.3rem !important;
+  margin-bottom: 1.5rem;
+}
+.derecha{
+  display: flex;
+  flex-direction: column;
+}
+.derecha div{
+  margin-top: 0.3rem;
+}
+
